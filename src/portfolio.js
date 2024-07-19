@@ -55,7 +55,7 @@ const skillsSection = {
     "CRAZY AI ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK RELATED TO AI",
   skills: [
     emoji("⚡ Analyze complex data & derive insights"),
-    emoji("⚡ Clean data & transform data"),
+    emoji("⚡ Clean & transform data"),
     emoji("⚡ Train, fine-tune, & optimize AI models"),
     emoji("⚡ Deploy AI models to cloud & edge"),
     emoji("⚡ Integrate AI into existing applications & services")
@@ -134,7 +134,7 @@ const educationInfo = {
     },
     {
       schoolName: "Mahatma Gandhi University - Kerala, India",
-      logo: require("./assets/images/MGUniversity.jpeg"),
+      logo: require("./assets/images/MGUniversity.png"),
       subHeader:
         "Bachelor of Technology in Electrical and Electronics Engineering",
       duration: "2009 - 2013"
@@ -209,7 +209,7 @@ const workExperiences = {
     },
     {
       role: "Systems Engineer",
-      company: "Tata Consultancy Services",
+      company: "TCS",
       companylogo: require("./assets/images/tcsLogo.png"),
       date: "01/2014 – 05/2016",
       desc: "Chennai, India"
@@ -248,7 +248,6 @@ const bigProjects = {
 };
 
 // Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -290,17 +289,17 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "",
+      title: "",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        ""
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
