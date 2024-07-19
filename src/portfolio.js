@@ -288,15 +288,13 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "I love to write and teach others what I have learnt.",
+  subtitle: "I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "",
       title: "",
-      description:
-        ""
+      description: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
