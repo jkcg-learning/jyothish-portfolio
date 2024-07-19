@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b457d43.css",
-    "main.js": "/static/js/main.fbeb73d4.js",
+    "main.css": "/static/css/main.3267181f.css",
+    "main.js": "/static/js/main.6fe34d01.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.a0a19f07.chunk.js": "/static/js/487.a0a19f07.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.fd20adbb.chunk.js": "/static/js/990.fd20adbb.chunk.js",
-    "static/media/LangchainLogo.png": "/static/media/LangchainLogo.f7e313ac522c38212376.png",
+    "static/media/LangchainLogo.png": "/static/media/LangchainLogo.9595694a7c64c8cace18.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/AzureLogo.png": "/static/media/AzureLogo.9b642f842eaa56643ea4.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -22,18 +22,17 @@
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/tomtomLogo.png": "/static/media/tomtomLogo.fe97255aaf1a46364826.png",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.7b457d43.css.map": "/static/css/main.7b457d43.css.map",
-    "main.fbeb73d4.js.map": "/static/js/main.fbeb73d4.js.map",
+    "main.3267181f.css.map": "/static/css/main.3267181f.css.map",
+    "main.6fe34d01.js.map": "/static/js/main.6fe34d01.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.a0a19f07.chunk.js.map": "/static/js/487.a0a19f07.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
     "990.fd20adbb.chunk.js.map": "/static/js/990.fd20adbb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b457d43.css",
-    "static/js/main.fbeb73d4.js"
+    "static/css/main.3267181f.css",
+    "static/js/main.6fe34d01.js"
   ]
 }
