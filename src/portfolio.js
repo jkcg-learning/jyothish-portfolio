@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/hello.json"; // Rename to your file
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2500 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -232,13 +232,13 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // image: require(""),
+      projectName: "",
+      projectDesc: "",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "",
+          url: ""
         }
         //  you can add extra buttons here.
       ]
