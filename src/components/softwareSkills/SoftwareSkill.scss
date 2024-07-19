@@ -1,31 +1,160 @@
-@import "../../_globalColor";
-
-.dev-icons {
-  padding-left: 0;
-  list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
+.software-skills-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
 }
 
-.software-skill-inline > i {
-  color: $subTitle;
+.icon {
+  font-size: 3rem;
+  margin-bottom: 5px;
 }
 
-.software-skill-inline > i:hover {
-  color: $skillsColor;
+.custom-icon-pytorch {
+  background: url("../../assets/icons/pytorch.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
 }
-.software-skill-inline > p {
-  color: $subTitle;
-  font-size: 10px;
+
+.custom-icon-tensorflow {
+  background: url("../../assets/icons/tensorflow.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
 }
-.software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
+
+.custom-icon-keras {
+  background: url("../../assets/icons/keras.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
 }
+
+.custom-icon-fastapi {
+  background: url("../../assets/icons/fastapi.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-triton {
+  background: url("../../assets/icons/triton.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-onnx {
+  background: url("../../assets/icons/onnx.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-openai {
+  background: url("../../assets/icons/openai.svg") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-kubeflow {
+  background: url("../../assets/icons/kubeflow.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-gcp {
+  background: url("../../assets/icons/gcp.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-mlflow {
+  background: url("../../assets/icons/mlflow.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-numpy {
+  background: url("../../assets/icons/numpy.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-pandas {
+  background: url("../../assets/icons/pandas.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-opencv {
+  background: url("../../assets/icons/opencv.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-matplotlib {
+  background: url("../../assets/icons/matplotlib.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-scikit-learn {
+  background: url("../../assets/icons/scikit-learn.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-huggingface {
+  background: url("../../assets/icons/huggingface.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-langchain {
+  background: url("../../assets/icons/langchain.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-streamlit {
+  background: url("../../assets/icons/streamlit.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-githubactions {
+  background: url("../../assets/icons/githubactions.png") no-repeat center
+    center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-icon-dvc {
+  background: url("../../assets/icons/dvc.png") no-repeat center center;
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Add similar styles for other custom icons */

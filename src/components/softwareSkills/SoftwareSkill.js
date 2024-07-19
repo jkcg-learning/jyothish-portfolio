@@ -1,26 +1,37 @@
-import React from "react";
+import React, {useContext} from "react";
+import PropTypes from "prop-types";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
+import StyleContext from "../../contexts/StyleContext";
 
-export default function SoftwareSkill() {
+const SoftwareSkill = () => {
+  const {isDark} = useContext(StyleContext);
   return (
-    <div>
-      <div className="software-skills-main-div">
-        <ul className="dev-icons">
-          {skillsSection.softwareSkills.map((skills, i) => {
-            return (
-              <li
-                key={i}
-                className="software-skill-inline"
-                name={skills.skillName}
-              >
-                <i className={skills.fontAwesomeClassname}></i>
-                <p>{skills.skillName}</p>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
+    <div
+      className={
+        isDark
+          ? "software-skills-main-div dark-mode"
+          : "software-skills-main-div"
+      }
+    >
+      {skillsSection.softwareSkills.map((skill, i) => {
+        return (
+          <div key={i} className="software-skill-inline">
+            {skill.fontAwesomeClassname ? (
+              <i className={`icon ${skill.fontAwesomeClassname}`}></i>
+            ) : (
+              <i className={`icon ${skill.customClassname}`}></i>
+            )}
+            <p>{skill.skillName}</p>
+          </div>
+        );
+      })}
     </div>
   );
-}
+};
+
+SoftwareSkill.propTypes = {
+  isDark: PropTypes.bool
+};
+
+export default SoftwareSkill;

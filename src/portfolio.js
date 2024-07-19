@@ -62,60 +62,124 @@ const skillsSection = {
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "SQL Database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "PyTorch",
+      customClassname: "custom-icon-pytorch" // Custom icon
+    },
+    {
+      skillName: "TensorFlow",
+      customClassname: "custom-icon-tensorflow" // Custom icon
+    },
+    {
+      skillName: "Keras",
+      customClassname: "custom-icon-keras" // Custom icon
+    },
+    {
+      skillName: "Scikit-Learn",
+      customClassname: "custom-icon-scikit-learn" // Custom icon
+    },
+    {
+      skillName: "HuggingFace",
+      customClassname: "custom-icon-huggingface" // Custom icon
+    },
+    {
+      skillName: "LangChain",
+      customClassname: "custom-icon-langchain" // Custom icon
+    },
+    {
+      skillName: "FastAPI",
+      customClassname: "custom-icon-fastapi" // Custom icon
+    },
+    {
+      skillName: "Streamlit",
+      customClassname: "custom-icon-streamlit" // Custom icon
+    },
+    {
+      skillName: "Kubeflow",
+      customClassname: "custom-icon-kubeflow" // Custom icon
+    },
+    {
+      skillName: "GCP",
+      customClassname: "custom-icon-gcp" // Custom icon
+    },
+    {
+      skillName: "OpenCV",
+      customClassname: "custom-icon-opencv" // Custom icon
+    },
+    {
+      skillName: "NumPy",
+      customClassname: "custom-icon-numpy" // Custom icon
+    },
+    {
+      skillName: "Pandas",
+      customClassname: "custom-icon-pandas" // Custom icon
+    },
+    {
+      skillName: "Matplotlib",
+      customClassname: "custom-icon-matplotlib" // Custom icon
+    },
+    {
+      skillName: "MLFlow",
+      customClassname: "custom-icon-mlflow" // Custom icon
+    },
+    {
+      skillName: "DVC",
+      customClassname: "custom-icon-dvc" // Custom icon
+    },
+    {
+      skillName: "OpenAI",
+      customClassname: "custom-icon-openai" // Custom icon
+    },
+    {
+      skillName: "GitHub Actions",
+      customClassname: "custom-icon-githubactions" // Custom icon
+    },
+    {
+      skillName: "ONNX",
+      customClassname: "custom-icon-onnx" // Custom icon
+    },
+    {
+      skillName: "Triton",
+      customClassname: "custom-icon-triton" // Custom icon
+    },
+    {
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "NodeJS",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
