@@ -1,7 +1,13 @@
-fs = require("fs");
+const fs = require("fs");
 const https = require("https");
-process = require("process");
+const process = require("process");
 require("dotenv").config();
+
+// Log to verify that .env variables are loaded
+// console.log("GITHUB_TOKEN:", process.env.REACT_APP_GITHUB_TOKEN);
+// console.log("GITHUB_USERNAME:", process.env.GITHUB_USERNAME);
+// console.log("USE_GITHUB_DATA:", process.env.USE_GITHUB_DATA);
+// console.log("MEDIUM_USERNAME:", process.env.MEDIUM_USERNAME);
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
@@ -9,15 +15,13 @@ const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
 const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME;
 
 const ERR = {
-  noUserName:
-    "Github Username was found to be undefined. Please set all relevant environment variables.",
-  requestFailed:
-    "The request to GitHub didn't succeed. Check if GitHub token in your .env file is correct.",
-  requestFailedMedium:
-    "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
+  noUserName: "Github Username was found to be undefined. Please set all relevant environment variables.",
+  requestFailed: "The request to GitHub didn't succeed. Check if GitHub token in your .env file is correct.",
+  requestFailedMedium: "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
+
 if (USE_GITHUB_DATA === "true") {
-  if (GITHUB_USERNAME === undefined) {
+  if (!GITHUB_USERNAME) {
     throw new Error(ERR.noUserName);
   }
 
@@ -56,6 +60,7 @@ if (USE_GITHUB_DATA === "true") {
 }
 `
   });
+
   const default_options = {
     hostname: "api.github.com",
     path: "/graphql",
@@ -94,11 +99,12 @@ if (USE_GITHUB_DATA === "true") {
   req.end();
 }
 
-if (MEDIUM_USERNAME !== undefined) {
-  console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
+if (MEDIUM_USERNAME) {
+  const encodedMediumUsername = encodeURIComponent(MEDIUM_USERNAME);
+  const mediumURL = `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${encodedMediumUsername}`;
   const options = {
     hostname: "api.rss2json.com",
-    path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
+    path: `/v1/api.json?rss_url=https://medium.com/feed/@${encodedMediumUsername}`,
     port: 443,
     method: "GET"
   };
@@ -108,7 +114,7 @@ if (MEDIUM_USERNAME !== undefined) {
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
+      throw new Error(ERR.requestFailedMedium);
     }
 
     res.on("data", d => {
