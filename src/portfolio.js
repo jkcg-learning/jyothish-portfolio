@@ -23,8 +23,12 @@ const greeting = {
   username: "JKCG",
   title: "Hi all, I'm Jyothish",
   subTitle: [
-    emoji("A passionate AI Engineer 🤖 with expertise in developing innovative solutions using Python, PyTorch & Tensorflow, along with a deep understanding of libraries and frameworks."),
-    emoji("Skilled in handling Computer Vision 📷, NLP 📝, LLM 🧠 projects, proficient in MLOps 🔧 and cloud technologies ☁️.")
+    emoji(
+      "A passionate AI Engineer 🤖 with expertise in developing innovative solutions using Python, PyTorch & Tensorflow, along with a deep understanding of libraries and frameworks."
+    ),
+    emoji(
+      "Skilled in handling Computer Vision 📷, NLP 📝, LLM 🧠 projects, proficient in MLOps 🔧 and cloud technologies ☁️."
+    )
   ],
   resumeLink:
     "https://drive.google.com/file/d/1RWj-WzH64BAY7WIY6atqdM_xz9KWPs56/view?usp=drive_link", // Set to empty to hide the button
@@ -47,13 +51,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY AI ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK RELATED TO AI",
+  subTitle:
+    "CRAZY AI ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK RELATED TO AI",
   skills: [
     emoji("⚡ Analyze complex data & derive insights"),
     emoji("⚡ Clean data & transform data"),
     emoji("⚡ Train, fine-tune, & optimize AI models"),
     emoji("⚡ Deploy AI models to cloud & edge"),
-    emoji("⚡ Integrate AI into existing applications & services"),
+    emoji("⚡ Integrate AI into existing applications & services")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -125,13 +130,14 @@ const educationInfo = {
       schoolName: "EPITA - Paris, France",
       logo: require("./assets/images/Epita.png"),
       subHeader: "Master in Data Science",
-      duration: "2019 - 2021",
+      duration: "2019 - 2021"
     },
     {
       schoolName: "Mahatma Gandhi University - Kerala, India",
       logo: require("./assets/images/MGUniversity.jpeg"),
-      subHeader: "Bachelor of Technology in Electrical and Electronics Engineering",
-      duration: "2009 - 2013",
+      subHeader:
+        "Bachelor of Technology in Electrical and Electronics Engineering",
+      duration: "2009 - 2013"
     }
   ]
 };
@@ -171,7 +177,7 @@ const workExperiences = {
       company: "Ryte AI",
       companylogo: require("./assets/images/ryteLogo.png"),
       date: "09/2023 – 05/2024",
-      desc: "Paris, France",
+      desc: "Paris, France"
     },
     {
       role: "Deep Learning Engineer",
@@ -207,7 +213,7 @@ const workExperiences = {
       companylogo: require("./assets/images/tcsLogo.png"),
       date: "01/2014 – 05/2016",
       desc: "Chennai, India"
-    },
+    }
   ]
 };
 
@@ -236,7 +242,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -252,32 +258,29 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Langchain",
-      subtitle:
-        "Understanding of LLMs & RAG",
+      subtitle: "Understanding of LLMs & RAG",
       image: require("./assets/images/LangchainLogo.png"),
       imageAlt: "Langchain",
       footerLink: [
         {
           name: "Certification",
           url: "https://learn.activeloop.ai/certificates/lurh0vg5km"
-        },
+        }
       ]
     },
 
     {
       title: "Azure",
-      subtitle:
-        "Azure Fundamentals",
+      subtitle: "Azure Fundamentals",
       image: require("./assets/images/AzureLogo.png"),
       imageAlt: "Azure",
       footerLink: [
         {
           name: "Certification",
           url: "https://www.credly.com/badges/285eca7d-6a67-4a59-ae6d-156f767af169/public_url"
-        },
+        }
       ]
-    },
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -295,7 +298,7 @@ const blogSection = {
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
+    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -326,9 +329,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
