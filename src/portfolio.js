@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "JKCG",
-  title: "Hi all, I'm Jyothish",
+  title: "Hey, I'm Jyothish",
   subTitle: [
     emoji(
       "A passionate AI Engineer 🤖 with expertise in developing innovative solutions using Python, PyTorch & Tensorflow, along with a deep understanding of libraries and frameworks."
@@ -52,13 +52,16 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "CRAZY AI ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK RELATED TO AI",
+    "Crazy AI Engineer who enjoys exploring tech stacks related to AI and driving the latest innovations",
   skills: [
     emoji("⚡ Analyze complex data & derive insights"),
     emoji("⚡ Clean & transform data"),
     emoji("⚡ Train, fine-tune, & optimize AI models"),
     emoji("⚡ Deploy AI models to cloud & edge"),
-    emoji("⚡ Integrate AI into existing applications & services")
+    emoji("⚡ Integrate AI into existing applications & services"),
+    emoji(
+      "😄 I rely on OpenAI, Mistral, FAANG, and researchers to innovate new architectures"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -400,11 +403,11 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+33-0000000000",

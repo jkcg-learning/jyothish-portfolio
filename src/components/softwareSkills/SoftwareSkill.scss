@@ -157,4 +157,26 @@
   height: 3rem;
 }
 
-/* Add similar styles for other custom icons */
+/* Dark mode custom icons with filter */
+.dark-mode .custom-icon-pytorch,
+.dark-mode .custom-icon-tensorflow,
+.dark-mode .custom-icon-keras,
+.dark-mode .custom-icon-fastapi,
+.dark-mode .custom-icon-triton,
+.dark-mode .custom-icon-onnx,
+.dark-mode .custom-icon-openai,
+.dark-mode .custom-icon-kubeflow,
+.dark-mode .custom-icon-gcp,
+.dark-mode .custom-icon-mlflow,
+.dark-mode .custom-icon-numpy,
+.dark-mode .custom-icon-pandas,
+.dark-mode .custom-icon-opencv,
+.dark-mode .custom-icon-matplotlib,
+.dark-mode .custom-icon-scikit-learn,
+.dark-mode .custom-icon-huggingface,
+.dark-mode .custom-icon-langchain,
+.dark-mode .custom-icon-streamlit,
+.dark-mode .custom-icon-githubactions,
+.dark-mode .custom-icon-dvc {
+  filter: brightness(0) invert(1);
+}
