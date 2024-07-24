@@ -60,7 +60,7 @@ const skillsSection = {
     emoji("⚡ Deploy AI models to cloud & edge"),
     emoji("⚡ Integrate AI into existing applications & services"),
     emoji(
-      "😄 I leverage the groundbreaking models and architectures developed by AI researchers and innovators"
+      "⚡ Leverage the groundbreaking models and architectures developed by AI researchers and innovators"
     )
   ],
 
