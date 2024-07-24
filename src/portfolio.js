@@ -60,7 +60,7 @@ const skillsSection = {
     emoji("⚡ Deploy AI models to cloud & edge"),
     emoji("⚡ Integrate AI into existing applications & services"),
     emoji(
-      "😄 I rely on OpenAI, Mistral, FAANG, and researchers to innovate new architectures"
+      "😄 I leverage the groundbreaking models and architectures developed by AI researchers and innovators"
     )
   ],
 
