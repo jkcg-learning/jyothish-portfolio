@@ -42,6 +42,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/jyothishchandrasenan/",
   gmail: "contact@jkcg.me",
   medium: "https://medium.com/@jyothish-tech",
+  calendly: "https://calendly.com/contact-jkcg/30min/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false

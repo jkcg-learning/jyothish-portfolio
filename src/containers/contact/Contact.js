@@ -9,6 +9,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -59,7 +60,7 @@ export default function Contact() {
               <img
                 alt="Man working"
                 src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
+              />
             )}
           </div>
         </div>

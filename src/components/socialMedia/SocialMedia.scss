@@ -1,5 +1,14 @@
 @import "../../_globalColor";
 
+.calendly i {
+  background-color: #00a2ff; // Calendly brand color
+}
+
+/* Add this to include the Calendly icon in the hover transition */
+.calendly i:hover {
+  background-color: $textColor;
+}
+
 .social-media-div {
   font-size: 2em;
 }
@@ -78,7 +87,9 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
-.medium i:hover {
+.medium i:hover,
+.calendly i:hover {
+  /* Added Calendly to hover transition */
   background-color: $textColor;
 }
 

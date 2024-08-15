@@ -2,7 +2,7 @@ import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
 
-export default function socialMedia() {
+export default function SocialMedia() {
   if (!socialMediaLinks.display) {
     return null;
   }
@@ -32,6 +32,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.medium ? (
+        <a
+          href={socialMediaLinks.medium}
+          className="icon-button medium"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-medium"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
@@ -40,6 +52,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fas fa-envelope"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.calendly ? (
+        <a
+          href={socialMediaLinks.calendly}
+          className="icon-button calendly"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-calendar-alt"></i>
           <span></span>
         </a>
       ) : null}
@@ -88,18 +112,6 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-twitter"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.medium ? (
-        <a
-          href={socialMediaLinks.medium}
-          className="icon-button medium"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-medium"></i>
           <span></span>
         </a>
       ) : null}
